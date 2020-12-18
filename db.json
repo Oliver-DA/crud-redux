@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "name": "Mouse",
+      "price": 100,
+      "id": 1
+    },
+    {
+      "name": "Pc",
+      "price": 2000,
+      "id": 2
+    }
+  ]
+}
