@@ -72,7 +72,7 @@ const NewProduct = ({ history }) => {
                             <div className = "form-group">
                                 <label>Product Price:</label>
                                 <input
-                                type = "text"
+                                type = "number"
                                 className = "form-control"
                                 name = "price"
                                 value = {price}

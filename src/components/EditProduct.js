@@ -14,7 +14,7 @@ const EditProduct = () => {
     //State
     const [product, setProduct] = useState({
         name: "",
-        price: ""
+        price: 0
     })
 
     //Accessing state trough useSelector which connects directly with the redux store
@@ -68,7 +68,7 @@ const EditProduct = () => {
                         <div className = "form-group">
                             <label>Product Price:</label>
                             <input
-                            type = "text"
+                            type = "number"
                             className = "form-control"
                             name = "price"
                             value = {price}

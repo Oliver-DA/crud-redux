@@ -14,7 +14,6 @@ import {
     EDIT_PRODUCT,
     EDIT_PRODUCT_SUCCESS,
     EDIT_PRODUCT_ERROR,
-    EDIT_PRODUCT_START
 } from './productsTypes';
 
 //Axios client
@@ -147,7 +146,7 @@ const deleteProductError = () => ({
 ///ACTION CREATOR TO EDIT A PRODUCT///
 //////////////////////////////////////
 export function addEditProductAction (product) {
-    //This action creator gets acess to the dispatch property thanks to the thunk middleware
+    //This action creator gets access to the dispatch property thanks to the thunk middleware
     return (dispatch) => {
         dispatch ( editProduct(product) );
     }

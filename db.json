@@ -1,14 +1,9 @@
 {
   "products": [
     {
-      "name": "Mouse",
-      "price": 100,
+      "name": "Basketball",
+      "price": "200",
       "id": 1
-    },
-    {
-      "name": "Pc",
-      "price": 2000,
-      "id": 2
     }
   ]
 }
