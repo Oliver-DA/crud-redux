@@ -30,7 +30,7 @@ const Products = () => {
             <h2 className = "text-center my-5">Products</h2>
             { err && <p className = "alert alert-danger text-center mt-4">There was a problen getting the products</p>}
             { loading && <h2 className = "text-center">Loading...</h2>  }
-            <table className = "table table-striped">
+            <table className = "table table-striped table-borderless border-primary text-center">
                 <thead className = "bg-primary table-dark">
                     <tr>
                         <th scope = "col">Name</th>

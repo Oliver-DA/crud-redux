@@ -41,7 +41,7 @@ const Product = ({ product }) => {
 
     return (
         <tr>
-            <td>{ name }</td>
+            <td className>{ name }</td>
             <td><span className = "font-weight-bold">$</span>{ price }</td>
             <td className = "acciones">
             

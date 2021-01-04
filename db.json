@@ -4,6 +4,11 @@
       "name": "Basketball",
       "price": "200",
       "id": 1
+    },
+    {
+      "name": "Shoes",
+      "price": 250,
+      "id": 2
     }
   ]
 }
