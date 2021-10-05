@@ -3,7 +3,7 @@
 ## How to run the app
 
 First: go to the directory where the project is located using your terminal and run => **npm install.**
-thios will install all the project's dependencies, next **npm start**
+this will install all the project's dependencies, next **npm start**
 this will start the react application on port 3000.
 
 
